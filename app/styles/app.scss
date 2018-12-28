@@ -1,14 +1,18 @@
+@import 'tailwind';
+
 @import "settings";
 @import 'foundation-sites/foundation';
 @include foundation-everything;
 
 body
 {
-background: url('images/dm.png') no-repeat;
-background-size: cover;
-background-color:$black;
-height:100%;
+@media(min-width: 1200px){
+    background: url('images/dm.png') no-repeat;
+    background-size: cover;
+
 }
+background-color:$black;
+height: auto;}
 .logo{
     fill:#FFFFFF;
 }
