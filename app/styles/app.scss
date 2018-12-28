@@ -1,0 +1,21 @@
+@import "settings";
+@import 'foundation-sites/foundation';
+@include foundation-everything;
+
+body
+{
+background: url('images/dm.png') no-repeat;
+background-size: cover;
+background-color:$black;
+height:100%;
+}
+.logo{
+    fill:#FFFFFF;
+}
+.tunes{
+    width:80%;
+    margin: auto;
+    bottom:0px;
+    position: absolute; 
+    left: 50%;
+}
