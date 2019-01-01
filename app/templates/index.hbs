@@ -1,0 +1,59 @@
+<div class="container mx-auto px-4">
+    <div class="flex flex-row">
+        <div class="py-2 m-2">
+                        <h1>You made it!</h1>
+            <p>We've been expecting you. Hit the play button below to hear the tunes.
+                {{#link-to "video"}}Click here to watch our video{{/link-to}}, 
+                or learn more about us by scrolling.</p>
+
+            {{#if (user-agent "device.isMobile")}}
+
+            <img src="assets/images/buki-sq.jpg" alt="" class="rounded-l">
+
+            {{else}}
+            <img src="assets/images/buki-ls.jpg" alt="">
+            {{/if}}
+                        <h2>Bukky</h2>
+            <p>
+            Bukky is the brains, beauty and main talent of the band. She wears the trousers, skirts and basically all of the nice clothes within the group. She started out singing for the Lord, went on to become a fully qualified accountant at 16, and has worked as an executive for 3 of the the top 3 companies in the world. As a fully trained mechanic, Buki has worked on some of the best cars ever made, and has a particular soft spot for vintage Ferraris.
+            </p>
+        </div>
+    </div>
+
+    <div class="flex flex-row">
+        <div class="1/2">
+            <img src="assets/images/doug.jpg" alt="">
+        </div>
+                <div class='flex-grow p-4'>
+                    <h2>Doug Banville</h2>
+    Retired Olympic Bingo coach, Doug Banville is seen as the father of the band. After a rollercoaster lifestyle of coaching some of the best bingo players ever born, he can now be seen practising his Spanish style guitar licks in various beauty spots around Ireland. His intimidating height, stance and fondness for bell bottom trousers, are matched only by his gentle voice, heard on a number of tracks on “Drive In Music Club”.
+  </div>
+
+    </div>
+
+        <div class="flex flex-row">
+
+                <div class='flex-grow p-4'>
+                                        <h2>Jeff Jones</h2>
+
+Jeff Jones is the paradox of the band. A computer genius, male stud, and musical prodigy, he shirks the limelight, and even sunlight. Practising and teaching yoga by day, he beavers away at night, adding to his vast catalogue of compositions. Jeff holds the international world record for time spent in a recording studio.  </div>
+        <div class="1/2">
+            <img src="assets/images/jeff.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="flex flex-row">
+        <div class="1/2">
+            <img src="assets/images/ivan.jpg" alt="">
+        </div>
+                <div class='flex-grow p-4'>
+                                        <h2>Ivan Badger</h2>
+
+Ivan Badger is the button pushing dreamer of the band. Having grown up in a traveling hippy commune, he flew the roost, became a qualified steam engineer and went on to design the original inspiration for the “Tic Tac”, the now forgotten “Mikro Dott”. Ivan collects old newspapers and beer bottles, and can be seen around Dublin city centre at night loitering outside fast food restaurants.   </div>
+
+    </div>
+</div>
+<div class="h-48"></div>
+{{outlet}}
+
+{{outlet}}

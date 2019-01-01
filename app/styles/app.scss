@@ -7,12 +7,15 @@
 body
 {
 @media(min-width: 1200px){
-    background: url('images/dm.png') no-repeat;
+    background: url('images/car.jpg') no-repeat;
     background-size: cover;
-
 }
+background: url('images/mob-bgr.jpg') no-repeat;
+background-size: cover;
 background-color:$black;
-height: auto;}
+color:$white;
+font-family: 'Oswald', sans-serif;
+}
 .logo{
     fill:#FFFFFF;
 }
@@ -23,3 +26,6 @@ height: auto;}
     position: absolute; 
     left: 50%;
 }
+h1, h2, h3{
+    font-family: 'Staatliches', cursive;
+  }

@@ -1,13 +1,28 @@
 <div class="flex content-center ">
   <div class="w-1/3 p-2">
-    <div class="text-grey-darker text-center bg-grey-light p-2">1</div>
   </div>
   <div class="w-1/3 p-2">
     <div class="text-grey-darker text-center p-2">
+        {{#link-to "index"}}
         <img src="assets/images/dmic.svg" alt="">
+        {{/link-to}}
     </div>
   </div>
   <div class="w-1/3 p-2">
-    <div class="text-grey-darker text-center bg-grey-light p-2">3</div>
+  </div>             
+</div>
+<div class="container mx-auto px-4">
+
+    <div class="flex flex-row">
+  {{#link-to "index"}}
+     <button class="bg-transparent text-white hover:bg-white hover:text-black  font-semibold py-2 px-4 border border-blue  rounded">
+                About DIMC
+            </button>
+    {{/link-to}}
+      {{#link-to "video"}}
+     <button class="bg-transparent text-white hover:bg-white hover:text-black  font-semibold py-2 px-4 border border-blue  rounded">
+                Watch our Video
+            </button>
+    {{/link-to}}
   </div>
 </div>
